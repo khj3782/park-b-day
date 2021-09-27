@@ -1,0 +1,67 @@
+body{
+  background-color:#FDF4D9;
+  margin:0;
+}
+.logo-container{
+  margin-top:20vh;
+  text-align:center;
+}
+.logo-img{
+  width:230px;
+}
+.logo-img:hover{
+  transform: rotate(10deg);
+  width:250px;
+}
+.logo-img-back{
+  background-color:white;
+  border-radius:100%;
+  height:250px;
+  margin-left:auto;
+  margin-right:auto;
+  width:250px;
+}
+.logo-text{
+  font-family: 'Shadows Into Light', cursive;
+  font-size:30px;
+}
+.meow{
+  fill:#AB8211;
+  /*font-family: 'Rubik Beastly', cursive;*/
+  font-family: 'Indie Flower', cursive;
+  font-size:40px;
+}
+.moving-cat{
+  position:absolute;
+}
+.cat{
+  width:180px;
+}
+.meow1-back{
+  background-color:white;
+  -webkit-clip-path: polygon(6% 22%, 72% 95%, 100% 32%);
+  height:150px;
+  position:absolute;
+  width:210px;
+  z-index:-1;
+}
+.meow2-back{
+  background-color:white;
+  -webkit-clip-path: polygon(0 20%, 80% 0%, 100% 100%, 20% 80%);
+  height:150px;
+  left:-20px;
+  position:absolute;
+  top:-40px;
+  width:210px;
+  z-index:-1;
+}
+.meow3-back{
+  background-color:white;
+  -webkit-clip-path: polygon(53% 34%, 100% 25%, 86% 83%, 18% 100%, 0 0);
+  height:150px;
+  left:-20px;
+  position:absolute;
+  top:-40px;
+  width:210px;
+  z-index:-1;
+}
